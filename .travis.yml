@@ -17,6 +17,6 @@ branches:
 before_install:
   - sudo apt-get -qq update
 install:
-  - sudo apt-get -qq install rake bison git gperf
+  - sudo apt-get -qq install rake bison git gperf libidn2-0-dev
 script:
   - rake test
